@@ -21,4 +21,7 @@
     "titleBar.inactiveForeground": "#e7e7e799"
   },
   "peacock.color": "#a92d2f",
+  "cSpell.words": [
+    "maxlength"
+  ],
 }

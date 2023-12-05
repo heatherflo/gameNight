@@ -55,8 +55,20 @@
           <button onclick="" class="btn btn-light text-dark rounded"></button>
         </div>
       </div> -->
+    </section>
 
-
+    <section class="container-fluid">
+      <div class="row">
+        <form onsubmit="app.playersController.addPlayer()">
+          <div>
+            <label for="name">Player Name:</label>
+            <input type="text" minlength="2" maxlength="15" name="name" required />
+          </div>
+          <div>
+            <button type="submit">Add Player</button>
+          </div>
+        </form>
+      </div>
     </section>
 
   </main>

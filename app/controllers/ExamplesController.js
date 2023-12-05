@@ -1,5 +1,9 @@
 import { AppState } from "../AppState.js"
-import { examplesService } from "../services/ExampleService.js"
+import { Player } from "../models/player.js"
+import { playersService } from "../services/PlayersService.js"
+
+
+
 
 function _logExamples() {
   console.clear()
@@ -21,7 +25,7 @@ export class ExamplesController {
       throw new Error('You must provide a message')
     }
 
-    examplesService.addMessage(message)
+    // examplesService.addMessage(message)
   }
 
 }
