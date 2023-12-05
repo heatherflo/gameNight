@@ -1,4 +1,4 @@
-import { Player } from "../models/Player.js";
+import { Player } from "../models/player.js";
 import { AppState } from "../AppState.js";
 
 
@@ -8,6 +8,10 @@ export class PlayersController {
     console.log('player loaded')
     console.log(Player);
     this.drawPlayer()
+  }
+
+  scorePoint() {
+    console.log('clicked')
   }
 
   drawPlayer() {
